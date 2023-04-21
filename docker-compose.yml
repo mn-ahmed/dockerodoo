@@ -30,7 +30,6 @@ services:
       - odoo-modules:${ODOO_EXTRA_ADDONS}
     depends_on:
       - db
-
     networks:
       odoonet:
   # ------------------------
